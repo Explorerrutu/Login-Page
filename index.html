@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        * {
+            margin: 00px;
+            padding: 00px;
+        }
+        
+        body {
+            height: 100%;
+            width: 100%;
+            background-image: url("bg.jpeg");
+            background-size: cover;
+        }
+        
+        .contain {
+            height: 100%;
+            width: 100%;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .contain form {
+            height: 380px;
+            width: 300px;
+            background: transparent;
+            backdrop-filter: blur(30px);
+            padding: 10px 10px;
+            border-radius: 20px;
+        }
+        
+        .contain form h1 {
+            text-align: center;
+            margin: 10px 10px;
+            padding: 10px 10px;
+            font-weight: bolder;
+        }
+        
+        .In {
+            height: 8px;
+            width: 80%;
+            margin: 15px 15px;
+            padding: 20px 20px;
+        }
+        
+        .In input {
+            height: 35px;
+            width: 100%;
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid black;
+        }
+        
+        .contain .btn input {
+            display: block;
+            margin: 0px auto;
+            margin-top: 40%;
+            border-radius: 15px;
+            padding: 10px;
+            background-color: transparent;
+            border: 1px solid black;
+            width: 90%;
+            height: 20px 20px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+        .contain .btn input:hover {
+            width: 90%;
+            height: 20px 20px;
+            background-color: rgba(237, 197, 149, 0.214);
+            border: 2px solid rgb(66, 53, 54);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contain">
+        <form>
+            <h1>Login Form</h1>
+            <div class="In">
+                <input type="text" placeholder="Username">
+            </div>
+            <div class="In">
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="btn">
+                <input type="button" value="Login">
+            </div>
+        </form>
+
+
+    </div>
+</body>
+
+</html>
